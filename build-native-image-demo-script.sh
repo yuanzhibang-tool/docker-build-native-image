@@ -39,3 +39,5 @@ docker image tag yuanzhibang/native-image-$APP_NAME:$VERSION yuanzhibang/native-
 docker push yuanzhibang/native-image-$APP_NAME:$VERSION
 docker push yuanzhibang/native-image-$APP_NAME:latest
 docker push yuanzhibang/native-image-$APP_NAME:default
+
+# you can run `docker run yuanzhibang/native-image-web-demo:latest` to start the app
